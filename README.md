@@ -22,14 +22,10 @@ To run the project:
 
 `conda create -n restflask python=3.9`
 
-2. Run the command to install pip. 
-
-`conda install pip`
-
-3. Run the command to install the required commands.
+2. Run the command to install the required commands.
 
 `pip install -r requirements.txt`
 
-4. Run the project with the command.
+3. Run the project with the command.
 
 `uvicorn index:app --reload`
