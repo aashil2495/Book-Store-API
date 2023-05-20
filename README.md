@@ -29,3 +29,9 @@ To run the project:
 3. Run the project with the command.
 
 `uvicorn index:app --reload`
+
+4. After running the project, use the SwaggerUI for viewing and testing the APIs
+
+`http://127.0.0.1:8000/docs#/default`
+
+  You can view and test all the APIs locally on your browser.
